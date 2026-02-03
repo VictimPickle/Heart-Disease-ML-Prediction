@@ -134,6 +134,25 @@ All models achieved strong performance:
 
 **Recommendation**: Based on Recall scores (minimizing False Negatives), the best model for hospital deployment is identified in the analysis output.
 
+## 📊 Visualizations
+
+The project generates comprehensive visualizations including:
+
+### Feature Correlation Matrix
+![Correlation Heatmap](images/correlation_heatmap.jpg)
+
+### Feature Importance Comparison
+![Feature Importance](images/feature_importance.jpg)
+
+### Model Performance Metrics
+![Model Metrics](images/model_metrics.jpg)
+
+### False Negatives Analysis
+![False Negatives](images/false_negatives.jpg)
+
+### Decision Tree Visualization
+![Decision Tree](images/decision_tree.jpg)
+
 ## 🛠️ Technologies Used
 
 - **Python 3.x**
@@ -170,15 +189,6 @@ python heart_disease_analysis.py
 - `model_comparison_results.csv` - Numerical results
 - `processed_heart_data.csv` - Cleaned and encoded dataset
 
-## 📊 Visualizations
-
-The project generates comprehensive visualizations including:
-- Correlation heatmaps
-- Feature importance rankings
-- Model performance comparisons
-- Confusion matrices
-- Decision tree structure
-
 ## 🧪 Key Findings
 
 1. **Most Important Features**: ST_Slope, Oldpeak, ExerciseAngina emerged as top predictors
@@ -193,14 +203,20 @@ The project generates comprehensive visualizations including:
 ├── heart.csv                     # Dataset
 ├── README.md                     # Project documentation
 ├── HW7_AI.pdf                    # Original assignment (Persian)
-└── outputs/                      # Generated visualizations and results
+├── images/                       # Visualization outputs
+│   ├── correlation_heatmap.jpg
+│   ├── feature_importance.jpg
+│   ├── model_metrics.jpg
+│   ├── false_negatives.jpg
+│   └── decision_tree.jpg
+└── outputs/                      # Generated CSV results
 ```
 
 ## 👨‍💻 Author
 
 **Mobin Ghorbani**
 - Computer Science Student
-- University of Tabriz
+- University of Tehran (UT)
 - GitHub: [@VictimPickle](https://github.com/VictimPickle)
 
 ## 📝 License
@@ -210,7 +226,7 @@ This project is part of an academic assignment for educational purposes.
 ## 🙏 Acknowledgments
 
 - Dataset source: Cardiovascular disease dataset
-- Course: Artificial Intelligence - University of Tabriz
+- Course: Artificial Intelligence - University of Tehran
 - Faculty of Mathematics, Statistics & Computer Science
 
 ## 📧 Contact
